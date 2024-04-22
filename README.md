@@ -21,7 +21,7 @@ This Repository contains all the information regarding the project along with th
   - Cell Design & Characterization flows
   - General Timing Characterization Parameters
 
-+ [Task 3️⃣ : SPI communication with mikroe click 3 sink board to send VSEL voltage values](#design-library-cell-using-magic-layout-and-ngspice-characterization)
++ [Task 3️⃣ : SPI communication with mikroe click 3 sink board to send VSEL voltage values](#spi-communication-with-mikroe-click-3-sink-board-to-send-vsel-voltage-values)
   - Labs for CMOS inverter ngspice simulations
   - Inception of layout and CMOS Fabrication Process
   - Sky130 Tech file labs
@@ -86,7 +86,8 @@ while True:
 
 # 📌 TASK-2
 
-# I2C communication with mikroe click 3 sink board to send VSEL voltage valuess
+# I2C communication with mikroe click 3 sink board to send VSEL voltage values
+
 
 [Back to main](#table-of-contents)
 
