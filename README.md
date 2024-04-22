@@ -55,7 +55,7 @@ This Repository contains all the information regarding the project along with th
 
 code : 
 
-
+```
 import smbus
 from smbus2 import SMBus, i2c_msg
 import time
@@ -63,6 +63,20 @@ import RPi.GPIO as GPIO     #import RPi.GPIO module
 
 bus = smbus.SMBus(1)
 time.sleep(1) #wait here to avoid 121 IO Error
+
+while True:
+    data = input("Enter the Input")
+    data_PIR=[00]
+    write_CR = bus.write_i2c_block_data(65,3,[int(data)]) # writing the data value into the configuration register
+    read_CR = bus.read_i2c_block_data(65,3,1)
+    print("COnfiguration Port Register Value :", read_CR)
+    result = 0
+    for b in read_CR:
+        result = result * 256 + int(b)
+    print(result)
+    time.sleep(1)
+
+```
 
 
 [Back to main](#table-of-contents)
