@@ -32,7 +32,7 @@ This Repository contains all the information regarding the project along with th
   - Clock Tree Synthesis TritonCTS and signal integrity
   - Timing analysis with Real Clocks(OpenSTA)
  
-+ [Task 5️⃣ : Interfacing I/O expander with the raspberry pi](#interfacing-i/o-expander-with-the-raspberry-pi)
++ [Task 5️⃣ : Interfacing I/O expander with the raspberry pi](#interfacing-io-expander-with-the-raspberry-pi)
   - Timing Modelling using Delay Tables
   - Timing analysis with Ideal Clocks(OpenSTA)
   - Clock Tree Synthesis TritonCTS and signal integrity
@@ -119,7 +119,7 @@ while True:
 
 # 📌 TASK-5
 
-#  Interfacing I/O expander with the raspberry pi
+#  Interfacing IO expander with the raspberry pi
 
 
 [Back to main](#table-of-contents)
